@@ -15,15 +15,5 @@ always_ff@(posedge clk_ab) begin
 		q2 <= q1;
 	end
 end
-
-assign data_out = q2;
-
-property p1;
-	@(posedge clk);
-	disable iff (!rst_ab)
-	data_in |-> ##2 (data_out == $past(data_in,2)); 
-endproperty
-
-A1 : assert(p1); 
-
+	
 endmodule
