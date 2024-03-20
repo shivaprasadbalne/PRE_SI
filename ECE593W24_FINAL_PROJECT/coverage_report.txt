@@ -1,0 +1,127 @@
+QuestaSim-64 vcover 2021.3_1 Coverage Utility 2021.08 Aug 15 2021
+Start time: 22:38:19 on Mar 12,2024
+vcover report cov_report 
+Coverage Report Summary Data by instance
+
+=================================================================================
+=== Instance: /top/tintf_inst
+=== Design Unit: work.tintf
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        144       142         2    98.61%
+
+=================================================================================
+=== Instance: /top/dut_inst/inf
+=== Design Unit: work.async_fifo
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        400       383        17    95.75%
+
+=================================================================================
+=== Instance: /top/dut_inst/PRO
+=== Design Unit: work.producer
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         3         0   100.00%
+    Statements                       7         7         0   100.00%
+
+=================================================================================
+=== Instance: /top/dut_inst/CON
+=== Design Unit: work.CONSUMER
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         7         7         0   100.00%
+    Statements                       4         4         0   100.00%
+
+=================================================================================
+=== Instance: /top/dut_inst/WP
+=== Design Unit: work.WPTR_LOGIC
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         8         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Statements                       6         6         0   100.00%
+
+=================================================================================
+=== Instance: /top/dut_inst/RP
+=== Design Unit: work.RPTR_LOGIC
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Expressions                      1         1         0   100.00%
+    Statements                      11        11         0   100.00%
+    Toggles                         42        39         3    92.85%
+
+=================================================================================
+=== Instance: /top/dut_inst/W_SYN
+=== Design Unit: work.synchronizer
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Statements                       5         5         0   100.00%
+    Toggles                         64        57         7    89.06%
+
+=================================================================================
+=== Instance: /top/dut_inst/R_SYN
+=== Design Unit: work.synchronizer
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Statements                       5         5         0   100.00%
+    Toggles                         64        57         7    89.06%
+
+=================================================================================
+=== Instance: /top/dut_inst/my_fifo
+=== Design Unit: work.fifo_mem
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         6         6         0   100.00%
+    Conditions                       4         4         0   100.00%
+    Statements                       9         9         0   100.00%
+
+=================================================================================
+=== Instance: /top/dut_inst
+=== Design Unit: work.Async_FIFO
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       6         6         0   100.00%
+
+=================================================================================
+=== Instance: /top
+=== Design Unit: work.top
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       8         8         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /testbench_sv_unit
+=== Design Unit: work.testbench_sv_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       597        63       534    10.55%
+    Conditions                      92         4        88     4.34%
+    Covergroups                      1        na        na    93.75%
+        Coverpoints/Crosses          8        na        na        na
+            Covergroup Bins        139       138         1    99.28%
+    Statements                     683       256       427    37.48%
+
+
+TOTAL COVERGROUP COVERAGE: 93.75%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 59.47%
+
+End time: 22:38:19 on Mar 12,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
